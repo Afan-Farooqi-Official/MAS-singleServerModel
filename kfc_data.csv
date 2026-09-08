@@ -1,0 +1,94 @@
+﻿CustomerID,Session,ArrivalTime,ServiceTime,ServiceStart,ServiceEnd,WaitTime,Status
+1,Session 1 (12:30-1:38 PM),12:30,3.95,12:30,12:33,0,Served
+2,Session 1 (12:30-1:38 PM),12:30,3.1,12:33,12:37,3.65,Served
+3,Session 1 (12:30-1:38 PM),12:30,2.11,12:37,12:39,6.45,Served
+4,Session 1 (12:30-1:38 PM),12:32,-,-,-,-,Left without ordering
+5,Session 1 (12:30-1:38 PM),12:32,4.48,12:39,12:43,6.84,Served
+6,Session 1 (12:30-1:38 PM),12:32,-,-,-,-,Left without ordering
+7,Session 1 (12:30-1:38 PM),12:35,3.73,12:43,12:47,8.52,Served
+8,Session 1 (12:30-1:38 PM),12:36,2.14,12:47,12:49,10.99,Served
+9,Session 1 (12:30-1:38 PM),12:41,-,-,-,-,Left without ordering
+10,Session 1 (12:30-1:38 PM),12:42,2.54,12:49,12:52,6.93,Served
+11,Session 1 (12:30-1:38 PM),12:44,3.12,12:52,12:55,7.29,Served
+12,Session 1 (12:30-1:38 PM),12:46,-,-,-,-,Left without ordering
+13,Session 1 (12:30-1:38 PM),12:49,2.94,12:55,12:58,5.28,Served
+14,Session 1 (12:30-1:38 PM),12:52,2.9,12:58,13:01,6.02,Served
+15,Session 1 (12:30-1:38 PM),12:56,2.73,13:01,13:03,4.97,Served
+16,Session 1 (12:30-1:38 PM),12:58,4.63,13:03,13:08,5.56,Served
+17,Session 1 (12:30-1:38 PM),13:01,4.94,13:08,13:13,6.92,Served
+18,Session 1 (12:30-1:38 PM),13:01,-,-,-,-,Left without ordering
+19,Session 1 (12:30-1:38 PM),13:06,-,-,-,-,Left without ordering
+20,Session 1 (12:30-1:38 PM),13:09,3.72,13:13,13:17,3.57,Served
+21,Session 1 (12:30-1:38 PM),13:14,4.09,13:17,13:21,2.08,Served
+22,Session 1 (12:30-1:38 PM),13:17,3.37,13:21,13:24,3.91,Served
+23,Session 1 (12:30-1:38 PM),13:21,3.42,13:24,13:27,2.7,Served
+24,Session 1 (12:30-1:38 PM),13:24,-,-,-,-,Left without ordering
+25,Session 1 (12:30-1:38 PM),13:27,4.98,13:27,13:32,0.37,Served
+26,Session 1 (12:30-1:38 PM),13:31,3.16,13:32,13:36,1.04,Served
+27,Session 1 (12:30-1:38 PM),13:34,-,-,-,-,Left without ordering
+28,Session 1 (12:30-1:38 PM),13:36,2.35,13:36,13:38,0,Served
+29,Session 2 (2:00-3:02 PM),2:00,2,2:04,2:06,4,Served
+30,Session 2 (2:00-3:02 PM),2:03,7,2:05,2:12,2,Served
+31,Session 2 (2:00-3:02 PM),2:05,5,2:06,2:11,1,Served
+32,Session 2 (2:00-3:02 PM),2:05,3,2:06,2:09,1,Served
+33,Session 2 (2:00-3:02 PM),2:06,1,2:07,2:08,1,Served
+34,Session 2 (2:00-3:02 PM),2:06,9,2:08,2:17,2,Served
+35,Session 2 (2:00-3:02 PM),2:07,5,2:11,2:16,4,Served
+36,Session 2 (2:00-3:02 PM),2:10,1,2:12,2:13,2,Served
+37,Session 2 (2:00-3:02 PM),2:11,3,2:14,2:17,3,Served
+38,Session 2 (2:00-3:02 PM),2:11,1,2:16,2:17,5,Served
+39,Session 2 (2:00-3:02 PM),2:13,2,2:18,2:20,5,Served
+40,Session 2 (2:00-3:02 PM),2:14,0,2:18,2:18,4,Served
+41,Session 2 (2:00-3:02 PM),2:16,1,2:20,2:21,4,Served
+42,Session 2 (2:00-3:02 PM),2:17,2,2:21,2:23,4,Served
+43,Session 2 (2:00-3:02 PM),2:17,4,2:21,2:25,4,Served
+44,Session 2 (2:00-3:02 PM),2:20,6,2:22,2:28,2,Served
+45,Session 2 (2:00-3:02 PM),2:21,11,2:22,2:33,1,Served
+46,Session 2 (2:00-3:02 PM),2:21,28,2:24,2:52,3,Served
+47,Session 2 (2:00-3:02 PM),2:21,11,2:25,2:36,4,Served
+48,Session 2 (2:00-3:02 PM),2:21,-4,2:26,2:22,5,Served
+49,Session 2 (2:00-3:02 PM),2:23,10,2:28,2:38,5,Served
+50,Session 2 (2:00-3:02 PM),2:25,10,2:29,2:39,4,Served
+51,Session 2 (2:00-3:02 PM),2:27,12,2:29,2:41,2,Served
+52,Session 2 (2:00-3:02 PM),2:27,13,2:32,2:45,5,Served
+53,Session 2 (2:00-3:02 PM),2:28,12,2:32,2:44,4,Served
+54,Session 2 (2:00-3:02 PM),2:28,10,2:33,2:43,5,Served
+55,Session 2 (2:00-3:02 PM),2:30,9,2:33,2:42,3,Served
+56,Session 2 (2:00-3:02 PM),2:30,-,-,-,-,Left without ordering
+57,Session 2 (2:00-3:02 PM),2:31,-,-,-,-,Left without ordering
+58,Session 2 (2:00-3:02 PM),2:31,5,2:34,2:39,3,Served
+59,Session 2 (2:00-3:02 PM),2:31,53,2:34,3:27,3,Served
+60,Session 2 (2:00-3:02 PM),2:31,11,2:34,2:45,3,Served
+61,Session 2 (2:00-3:02 PM),2:34,11,2:35,2:46,1,Served
+62,Session 2 (2:00-3:02 PM),2:34,13,2:36,2:49,2,Served
+63,Session 2 (2:00-3:02 PM),2:34,13,2:36,2:49,2,Served
+64,Session 2 (2:00-3:02 PM),2:35,12,2:37,2:49,2,Served
+65,Session 2 (2:00-3:02 PM),2:37,14,2:38,2:52,1,Served
+66,Session 2 (2:00-3:02 PM),2:38,19,2:39,2:58,1,Served
+67,Session 2 (2:00-3:02 PM),2:40,8,2:40,2:48,0,Served
+68,Session 2 (2:00-3:02 PM),2:40,10,2:41,2:51,1,Served
+69,Session 2 (2:00-3:02 PM),2:41,12,2:41,2:53,0,Served
+70,Session 2 (2:00-3:02 PM),2:42,17,2:43,3:00,1,Served
+71,Session 2 (2:00-3:02 PM),2:43,12,2:43,2:55,0,Served
+72,Session 2 (2:00-3:02 PM),2:43,14,2:46,3:00,3,Served
+73,Session 2 (2:00-3:02 PM),2:44,17,2:45,3:02,1,Served
+74,Session 2 (2:00-3:02 PM),2:46,-,-,-,-,Left without ordering
+75,Session 2 (2:00-3:02 PM),2:47,15,2:48,3:03,1,Served
+76,Session 2 (2:00-3:02 PM),2:47,16,2:48,3:04,1,Served
+77,Session 2 (2:00-3:02 PM),2:47,16,2:49,3:05,2,Served
+78,Session 2 (2:00-3:02 PM),2:48,20,2:49,3:09,1,Served
+79,Session 2 (2:00-3:02 PM),2:48,27,2:50,3:17,2,Served
+80,Session 2 (2:00-3:02 PM),2:48,-,-,-,-,Left without ordering
+81,Session 2 (2:00-3:02 PM),2:49,22,2:51,3:13,2,Served
+82,Session 2 (2:00-3:02 PM),2:49,19,2:51,3:10,2,Served
+83,Session 2 (2:00-3:02 PM),2:52,10,2:52,3:02,0,Served
+84,Session 2 (2:00-3:02 PM),2:52,20,2:53,3:13,1,Served
+85,Session 2 (2:00-3:02 PM),2:53,21,2:54,3:15,1,Served
+86,Session 2 (2:00-3:02 PM),2:54,24,2:56,3:20,2,Served
+87,Session 2 (2:00-3:02 PM),2:54,-,-,-,-,Left without ordering
+88,Session 2 (2:00-3:02 PM),2:54,15,2:57,3:12,3,Served
+89,Session 2 (2:00-3:02 PM),2:54,23,2:58,3:21,4,Served
+90,Session 2 (2:00-3:02 PM),2:54,29,2:58,3:27,4,Served
+91,Session 2 (2:00-3:02 PM),2:55,25,3:00,3:25,5,Served
+92,Session 2 (2:00-3:02 PM),2:55,22,3:01,3:23,6,Served
+93,Session 2 (2:00-3:02 PM),2:56,18,3:02,3:20,6,Served

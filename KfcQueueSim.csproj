@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net8.0;net48</TargetFrameworks>
+    <Nullable>annotations</Nullable>
+    <LangVersion>10.0</LangVersion>
+    <RootNamespace>KfcQueueSim</RootNamespace>
+    <AssemblyName>KfcQueueSim</AssemblyName>
+  </PropertyGroup>
+
+</Project>
