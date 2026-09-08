@@ -1,0 +1,23 @@
+﻿# Visual Studio / .NET build outputs
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Executables and build artifacts
+*.exe
+*.dll
+*.pdb
+*.txt
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
