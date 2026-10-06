@@ -2,31 +2,31 @@
 setlocal enabledelayedexpansion
 
 echo ===================================================
-echo   KFC Queue Simulation Launcher
+echo   KFC Tandem Queue Simulation Launcher
 echo ===================================================
 
 cd /d "%~dp0"
 
 REM If executable already exists, run it directly!
-if exist "KfcQueueSim.exe" (
+if exist "TandemSim.exe" (
     echo Launching simulation...
     echo.
-    KfcQueueSim.exe
+    TandemSim.exe
     goto finished
 )
 
 REM If not built yet, compile with Windows built-in C# compiler
 echo Compiling source code using Windows C# compiler...
 if exist "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" (
-    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /t:exe /out:KfcQueueSim.exe Program.cs DataLoader.cs RandomGen.cs SimulationEngine.cs Models\CustomerRecord.cs Models\CustomerSimStat.cs Models\SimulationResult.cs Models\ValidationRow.cs Models\SimEvent.cs
+    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /t:exe /out:TandemSim.exe TandemSim.cs
 ) else (
-    C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /nologo /t:exe /out:KfcQueueSim.exe Program.cs DataLoader.cs RandomGen.cs SimulationEngine.cs Models\CustomerRecord.cs Models\CustomerSimStat.cs Models\SimulationResult.cs Models\ValidationRow.cs Models\SimEvent.cs
+    C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /nologo /t:exe /out:TandemSim.exe TandemSim.cs
 )
 
-if exist "KfcQueueSim.exe" (
+if exist "TandemSim.exe" (
     echo Compilation successful!
     echo.
-    KfcQueueSim.exe
+    TandemSim.exe
 ) else (
     echo [ERROR] Could not build executable.
 )
